@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+client/dist/
+server/dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+
+# Local MongoDB data and downloaded installers
+.local-mongodb-data/
+mongodb-data/
+*.tgz
